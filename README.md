@@ -1,6 +1,6 @@
 # UniTouch
 
-This is the website for the [UniTouch](https://cfeng16.github.io/UniTouch/).
+This is the repo for the [UniTouch](https://cfeng16.github.io/UniTouch/).
 
 
 
