@@ -350,6 +350,50 @@
       </div>
     </div>
   </div>
+</div>
+</section>
+
+<section class="section" style="margin: -50px;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+      <h2 class="title is-3">Image synthesis with touch</h2>
+      <div class="content has-text-justified">
+      </div>
+    </div>
+  </div>
+  <h3 class="title is-4">Interpolating states</h3>
+  <div class="content has-text-justified">
+    <p>
+      We can also animate the scene by interpolating the deformation latent codes of two input
+      frames. Use the slider here to linearly interpolate between the left frame and the right
+      frame.
+    </p>
+  </div>
+  <div class="columns is-vcentered interpolation-panel">
+    <div class="column is-3 has-text-centered">
+      <img src="./static/images/interpolate_start.jpg"
+           class="interpolation-image"
+           alt="Interpolate start reference image."/>
+      <p>Start Frame</p>
+    </div>
+    <div class="column interpolation-video-column">
+      <div id="interpolation-image-wrapper">
+        Loading...
+      </div>
+      <input class="slider is-fullwidth is-large is-info"
+             id="interpolation-slider"
+             step="1" min="0" max="100" value="0" type="range">
+    </div>
+    <div class="column is-3 has-text-centered">
+      <img src="./static/images/interpolate_end.jpg"
+           class="interpolation-image"
+           alt="Interpolation end reference image."/>
+      <p class="is-bold">End Frame</p>
+    </div>
+  </div>
+  <br/>
+
     <!--/ Matting. -->
 
     <!-- Animation. -->
