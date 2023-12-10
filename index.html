@@ -23,6 +23,19 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <style>
+    img.responsive {
+      width: 60%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      img.responsive {
+        max-width: 90%;
+        /* or the number of pixels you want */
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -60,7 +73,8 @@
                 <a href="https://openreview.net/profile?email=xien.chen@yale.edu">Xien Chen</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://openreview.net/profile?email=rit.gangopadhyay@yale.edu">Rit Gangopadhyay</a><sup>1</sup>,
+                <a href="https://openreview.net/profile?email=rit.gangopadhyay@yale.edu">Rit
+                  Gangopadhyay</a><sup>1</sup>,
               </span>
               <span class="author-block">
                 <a href="https://andrewowens.com/">Andrew Owens</a><sup>2</sup>,
@@ -175,7 +189,7 @@
               data, using sensor-specific tokens for multi-sensor training.
             </p>
             <center>
-              <img src="./static/images/method.png" alt="Overview" style="width: 60%; height: auto;">
+              <img class="responsive" src="./static/images/method.png" alt="Overview" style="width:70%; height: auto;">
             </center>
 
           </div>
