@@ -1,4 +1,4 @@
-# Binding Touch to Everything: Learning Unified Multimodal Tactile Representations
+# Binding Touch to Everything: Learning Unified Multimodal Tactile Representations (CVPR 2024)
 [![arXiv](https://img.shields.io/badge/arXiv-2401.18084-df2a2a.svg)](https://arxiv.org/abs/2401.18084)
 [![HF Models](https://img.shields.io/badge/%F0%9F%A4%97-Models-yellow)](https://huggingface.co/chfeng/Touch-LLM)
 [![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://cfeng16.github.io/UniTouch/)
