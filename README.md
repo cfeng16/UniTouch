@@ -12,9 +12,10 @@ Our code is built on top of the [ImageBind](https://github.com/facebookresearch/
 
 # Inference with Pretrained Models
 
-Download the pretrained touch encoder (`last_new.ckpt`) from the [HuggingFace model hub](https://huggingface.co/chfeng/Touch-LLM) and put it in the `./UniTouch` folder, same level as `touch_qa.py`.
-Download the folder `ckpts` from the [HuggingFace model hub](https://huggingface.co/chfeng/Touch-LLM) and put it in the `./UniTouch` folder, same level as `touch_qa.py`.
-Download the folder `llama_ori` from the [HuggingFace model hub](https://huggingface.co/chfeng/Touch-LLM) and put it in the `./UniTouch` folder, same level as `touch_qa.py`.
+1. Download the pretrained touch encoder (`last_new.ckpt`) from the [HuggingFace model hub](https://huggingface.co/chfeng/Touch-LLM) and put it in the `./UniTouch` folder, same level as `touch_qa.py`.
+2. Download the folder `ckpts` from the [HuggingFace model hub](https://huggingface.co/chfeng/Touch-LLM) and put it in the `./UniTouch` folder, same level as `touch_qa.py`.
+3. Download the folder `llama_ori` from the [HuggingFace model hub](https://huggingface.co/chfeng/Touch-LLM) and put it in the `./UniTouch` folder, same level as `touch_qa.py`.
+
 
 
 For Touch-LLM:
